@@ -24,7 +24,7 @@
          io.github.kotoba-lang/langchain
          {:local/root "../../kotoba-lang/langchain"}}}
   :run {:main-opts ["-m" "apparelops.sim"]}
-  ;; clojure -M:dev:render-html [out-file] -> drive the REAL actor
+  ;; kbb -M:dev:render-html [out-file] -> drive the REAL actor
   ;; (apparelops.operation -> apparelops.governor -> apparelops.store) at
   ;; build time and write docs/samples/operator-console.html from what it
   ;; actually did. Deterministic (no clock / randomness / network):
