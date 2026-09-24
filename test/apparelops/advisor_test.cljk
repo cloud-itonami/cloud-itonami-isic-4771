@@ -1,6 +1,6 @@
 (ns apparelops.advisor-test
   "Unit tests of `apparelops.advisor` proposal generation."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [apparelops.advisor :as adv]
             [apparelops.store :as store]))
 
